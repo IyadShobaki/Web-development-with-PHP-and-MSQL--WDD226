@@ -1,0 +1,401 @@
+body 
+{
+	font-size: 25px;
+	color: #343d44;
+	font-family: "segoe-ui", "open-sans", tahoma, arial;
+	padding: 0;
+	margin: 0; 
+    background-color: azure;
+}
+html{
+   display: block;
+    
+}
+
+#today{
+  top:0;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  box-shadow: 0 0 20px purple;
+  border-radius: 16px;
+  width:250px;
+  background-color: aliceblue;
+  text-align: center;
+    margin-bottom: 7px;
+    padding-bottom: 2px;
+
+    
+}
+#arrow{
+    border: 1px black solid;
+    width:20px;
+    margin: auto;
+    background-color:lightblue;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px blue;
+    padding-bottom: 2px;
+}
+button{
+    
+    width: 250px;
+    height: 50px;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: azure;
+    box-shadow: 0 0 16px purple;
+    border-radius: 16px;
+    
+    
+}
+#form1{
+    width:250px;
+    margin: 0;
+    opacity: 0;
+}
+#form1:hover{
+    opacity: 1;
+}
+
+.Quote{
+    text-align: center;
+    font-family: Garamond;
+    font-style: italic;
+    color:black;  
+    font-size: 30px;
+    margin: auto;
+    
+} 
+.imgq{
+    display: block;
+    margin-left:auto;
+    margin-right: auto; 
+    width:500px;
+   height: 500px; 
+    border-radius: 16px;
+    box-shadow: 0 0 16px blue; 
+  
+    
+}
+
+.welcome {
+	width: 100%;
+    height: 100%;
+   	position: absolute;
+    opacity: 0.6;
+	z-index: -1;
+    top:0;
+}
+	
+table 
+{
+    
+	margin:auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+	font-size: 12px;
+    background-color: lavender;
+    border-radius: 16px;
+    box-shadow: 0 0 16px green;
+  
+    
+}
+
+  .next{
+      
+     font-family:Gorgia;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+    border: 1px black solid;
+    box-shadow: 7px 7px ;
+    width:100px;
+    background-color: lightcyan;
+    opacity: .8;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 16px blue;
+}
+td{
+   border-radius: 10px;
+    font-size: 17px;
+   
+}
+tr:hover{
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+    text-align: center;
+    
+}
+th{
+        border: 1px solid black;
+        padding: 7px 17px;
+        font-size: 18px;
+    border-radius: 16px;
+}
+th:hover{
+    background-color: aquamarine;
+}
+.left{
+    width:10em;
+}
+h1
+{
+	font-family:Gorgia;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+    border: 1px black solid;
+    box-shadow: 0 0 16px blue;
+    width:500px;
+    background-color: lightcyan;
+    opacity: .8;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    
+    
+}
+p {
+    
+    text-align: center;
+   margin: 18px;
+   
+    
+}
+nav a {
+    text-decoration: none;
+    display: block;
+   
+}
+li:hover{
+    font-weight: bold;
+    background-color: bisque;
+    
+}
+
+
+ul{
+  
+    top:0; 
+  border-radius: 16px;
+    display: block;
+    border-bottom: 3px solid black;
+    padding-left: 13em;
+}
+
+li{
+    
+    width: 250px;
+    text-align: center; 
+    background-color: aliceblue;
+	border: 5px solid #fff;
+     border-radius: 16px;
+    padding: 5px;
+    border-width: 5px;
+    list-style-type: none;  
+    display: inline-block;
+    
+}
+nav li a:active{
+    color: aqua;
+}
+#save{
+    text-align: center;
+    border:1px yellow solid;
+    width:500px;
+    margin: auto;
+    background-color: mediumaquamarine;
+    box-shadow: 0 0 16px blue;
+    color: aliceblue;
+    border-radius: 16px;
+}
+.error{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+      background-color: coral;
+      border: 1px black solid;
+      width:300px;
+    opacity:0.85;
+   border-radius: 16px;
+    
+}
+
+footer {
+	position:fixed;
+    bottom: 0;
+    width: 100%;
+   border-radius: 16px;
+    background-color: lavender;
+	text-align: center;
+	font-size: .60em;
+	font-style: italic;
+    padding-bottom: 1em;
+    z-index: -1;
+    margin: 0;
+}
+
+form	{
+    color: darkblue;
+    font-style: oblique;
+    margin: auto;
+    font-family: Georgia, serif;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 500px;
+    display: block;
+    background-color: aliceblue;
+    border-radius: 16px;
+    box-shadow: 0 0 16px blue;
+}
+textarea{
+    border-radius: 16px;
+    box-shadow: 0 0 16px black;
+}
+.inp{
+    margin-left: 7em;
+    width:306px;
+    border-radius: 16px;
+    box-shadow: 0 0 16px black;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 16px black;
+}
+@media only screen and (max-width: 1200px){
+
+  .error{
+        font-size: 18px;
+      margin: auto;
+      background-color: coral;
+      border: 1px black solid;
+      width:300px;
+    opacity:0.85;
+    }
+    table{
+        width:100%;
+    }
+    ul{
+        padding-left: 5em;
+       margin: 0;
+        
+    }
+    li{
+        width:200px;
+    }
+}
+@media only screen and (max-width: 803px){
+  
+    
+    ul{
+        padding-left: 2em;
+    }
+}
+@media only screen and (max-width: 730px){
+    
+    .next{
+      
+    }
+    ul{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 676px){
+    
+    
+    ul{
+        border-width: inherit;
+        
+        width:100%
+        
+    }
+    li{
+        width:200px;
+        padding: 0;
+        font-size: 20px
+    }
+    h1{
+        font-size: 30px;
+    }
+    td{
+   
+    font-size: 16px;
+   
+}
+}
+@media only screen and (max-width: 652px){
+    
+    
+    .next{
+       font-size: 15px;
+    }
+    li{
+        
+    }
+    ul{
+        width:150px;
+        padding-left: 5em;
+    }
+    footer{
+        margin-top: 3em;
+        
+    }
+    th{
+        padding: 0;
+    }
+    h1{
+        width:350px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    td{
+        padding: 0;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 570px){
+    
+    
+    th{
+        font-size: 14px;
+    }
+    td{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 474px){
+    
+    
+    .next{
+      
+    }
+    td{
+        font-size: 13px;
+    }
+    
+}
+@media only screen and (max-width: 430px){
+    
+    
+    .next{
+      
+    }
+    td{
+        font-size: 12px;
+    }
+    ul{
+        padding-left: 4em;
+    }
+    
+}
+	
+
+
+		
+		

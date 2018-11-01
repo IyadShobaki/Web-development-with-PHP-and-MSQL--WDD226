@@ -1,0 +1,57 @@
+body 
+{
+  background: #edeff0;
+  font-size: 1em;
+  font-family: arial, sans-serif;
+      
+}
+
+h1 
+{
+  font-size: 3em;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+h2 
+{
+
+  font-size: 1.5em;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+
+
+.main 
+{
+   max-width: 800px;
+   margin-top:1em;
+   margin-left:300px;
+   padding:20px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+p {
+    max-width: 500px;
+    text-align: justify;
+}
+form {
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left :2em;
+    float: left;
+    
+}
+input {
+    font-size: 1em;
+}
+#Result{
+    
+    margin: 1em;
+    padding-left: 15em;
+    font-family: cursive;
+    font-size: 2em;
+}

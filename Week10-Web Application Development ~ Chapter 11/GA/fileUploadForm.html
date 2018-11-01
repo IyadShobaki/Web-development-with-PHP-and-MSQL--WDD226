@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--File Upload Form-->
+</head>
+
+<body>
+
+<!--Rules to follow:  Form must use the "Post" method-->
+<!--The Form must contain the enctype=multipart/form-data attribute. This attribute specifies which content-type to use when submitting the form-->
+<!--If you don't have these requirements, the file upload will not function-->
+
+<!--The form sends data to a file called "upload.php", which will be coded next-->
+
+<h2>Upload a File</h2>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    	
+	<!--the type = "file" attribute shows the input field asa file-select control with a "Browse" button-->
+	<label for="fileSelect">Filename:</label>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+body {
+	background-color: lavenderblush;
+	color: black;
+	font-family: Arial;
+	
+}
+
+h2{
+	padding-top: 5px ;
+	font-size: 2em;
+	
+}
+#Modify {
+    font-family: monospace;
+    color: blue;
+    font-size: 3em;
+}
