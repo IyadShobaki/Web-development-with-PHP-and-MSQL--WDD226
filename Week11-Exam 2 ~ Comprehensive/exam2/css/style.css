@@ -1,0 +1,156 @@
+/*  Iyad Shobaki
+    FALL 2018 WEB DEV WITH PHP AND MYSQL
+    Professor  Kathy Ison
+    Week 6 - Exam 1
+    10/01/2018 
+*/
+
+/*
+http://206.244.75.249/~ishobaki0815/practicalApp/index.php
+*/
+
+
+body 
+{ 
+background-color: wheat;
+}
+.text-center{
+    font-family: "Gorgia";
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+
+
+h3{
+    font-family: "Gorgia";
+    padding-left: 5em;
+    
+}
+#candies{
+   display: block;
+    box-shadow: 0 1px 9px 3px;
+    text-align: center;
+    max-width: 20em;
+    overflow: auto;
+    margin-left: 20em;
+   
+    
+}
+
+p {
+    font-family: "Georgia";
+    padding-left: 6em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+.right{
+    margin-left: 35em;
+    text-decoration:underline;
+}
+#Age{
+    float:left;
+    display: block;
+    padding: 2em;
+}
+#Good{
+    display: block;
+    padding: 2em;
+    float: right;
+    
+}
+.main-content 
+{
+display: block;
+
+min-height: 240px;
+
+padding: 10px;
+border-radius: 5px;
+word-wrap: break-word;
+box-shadow: 0 1px 9px 3px;
+max-width: 1000px;
+    max-height: 800px;
+    margin-left: 20em;
+    background-color: beige;
+    
+}
+
+aside {
+    margin-left: 20px;
+    float: left;
+    text-decoration: none;
+}
+aside li{
+   
+   
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    box-shadow: 0 2px 4px 1px;
+   
+    
+
+}
+aside li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+aside li a:hover{
+    background: lightgreen;
+   
+    
+}
+.nav{
+    padding: 0
+    
+}
+.activeLink a 
+{
+color: magenta;
+text-transform: uppercase;
+   
+
+    
+}
+table{
+    font-family: fantasy;
+    font-size: 2em;
+    border-color: violet;
+}
+@media only screen and (max-width: 1024px){
+
+    .right{
+        margin:0;
+    }
+    .main-content{
+        min-height: 500px;
+    }
+    #candies{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    aside{
+        display: inline;
+        float: none;
+        
+    }
+    .main-content{
+        margin: 0;
+       
+    }
+    #Good{
+        float: none;
+    }
+}
+
+
